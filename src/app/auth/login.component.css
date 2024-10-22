@@ -1,0 +1,75 @@
+.page {
+  background: linear-gradient(to bottom right, #8A2387, #E94057, #F27121);
+  padding: 20;
+}
+
+.back-button {
+  color: white;
+  font-size: 24;
+  margin-bottom: 20;
+}
+
+.title {
+  color: white;
+  font-size: 28;
+  font-weight: bold;
+  margin-bottom: 40;
+}
+
+.logo {
+  color: white;
+  font-size: 48;
+  font-weight: bold;
+  margin-bottom: 60;
+}
+
+.form {
+  margin-top: 20;
+}
+
+.input-field {
+  margin-bottom: 20;
+}
+
+.input-icon {
+  color: white;
+  font-size: 20;
+  margin-right: 10;
+}
+
+.input {
+  color: white;
+  font-size: 18;
+  placeholder-color: rgba(255, 255, 255, 0.7);
+  border-bottom-width: 1;
+  border-bottom-color: white;
+}
+
+.login-button {
+  background-color: #ffffff;
+  color: #8A2387;
+  font-size: 18;
+  font-weight: bold;
+  height: 50;
+  border-radius: 25;
+  margin-top: 40;
+}
+
+.sign-up-button {
+  background-color: transparent;
+  color: white;
+  font-size: 18;
+  font-weight: bold;
+  height: 50;
+  border-radius: 25;
+  border-color: white;
+  border-width: 1;
+  margin-top: 20;
+}
+
+.sign-up-label {
+  color: white;
+  font-size: 16;
+  text-align: center;
+  margin-top: 40;
+}

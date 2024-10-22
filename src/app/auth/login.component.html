@@ -1,0 +1,24 @@
+<ScrollView>
+  <StackLayout class="page">
+    <Label text="&#xf053;" class="fas back-button"></Label>
+    <Label text="Welcome Back" class="title"></Label>
+    <Label text="Challenge" class="logo"></Label>
+    
+    <StackLayout class="form">
+      <GridLayout rows="auto" columns="auto, *" class="input-field">
+        <Label text="&#xf007;" class="fas input-icon" row="0" col="0"></Label>
+        <TextField hint="Username" class="input" row="0" col="1" [(ngModel)]="username"></TextField>
+      </GridLayout>
+      
+      <GridLayout rows="auto" columns="auto, *" class="input-field">
+        <Label text="&#xf023;" class="fas input-icon" row="0" col="0"></Label>
+        <TextField hint="Password" secure="true" class="input" row="0" col="1" [(ngModel)]="password"></TextField>
+      </GridLayout>
+      
+      <Button text="LOGIN" class="login-button" (tap)="onLogin()"></Button>
+      <Button text="SIGN UP" class="sign-up-button" (tap)="onSignUp()"></Button>
+    </StackLayout>
+    
+    <Label text="Forgot your password?" class="sign-up-label" (tap)="onForgotPassword()"></Label>
+  </StackLayout>
+</ScrollView>

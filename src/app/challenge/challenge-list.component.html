@@ -1,0 +1,10 @@
+<h1>Challenge App</h1>
+
+<div class="challenge-list">
+  <div *ngFor="let challenge of challenges" class="challenge-item" [routerLink]="['/challenge', challenge.id]">
+    <h2>{{ challenge.title }}</h2>
+    <p>Category: {{ challenge.category }}</p>
+    <p>Difficulty: {{ challenge.difficulty }}</p>
+    <p>Participants: {{ challenge.participants }}</p>
+  </div>
+</div>

@@ -1,0 +1,9 @@
+<h1>{{ challenge.title }}</h1>
+
+<div class="challenge-detail">
+  <p>Category: {{ challenge.category }}</p>
+  <p>Difficulty: {{ challenge.difficulty }}</p>
+  <p>{{ challenge.description }}</p>
+  <p>Participants: {{ challenge.participants }}</p>
+  <button (click)="onParticipate()">Participate</button>
+</div>
